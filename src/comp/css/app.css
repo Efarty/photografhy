@@ -1,0 +1,342 @@
+.div_photografhy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    /* margin: 0px;
+    padding: 0px; */
+    /* border:solid */
+}
+
+.link_photografhy {
+    width: auto;
+}
+
+.div1_photografhy {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.taytel_photografhy {
+    font-family: Heebo, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #CD8579;
+
+}
+
+.taytel_heder_photografhy {
+    color: #91675E;
+    font-family: Heebo, sans-serif;
+    font-weight: 700;
+    font-size: 33.62px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+    /* margin-left: 15px; */
+}
+
+.icon-FooterBottom,
+.link-footer,
+.taytel_heder_photografhy,
+.taytel_photografhy,
+.link_photografhy {
+    text-decoration: none;
+}
+
+.txt_photografhy {
+    font-family: Heebo, sans-serif;
+    font-weight: 700;
+    font-size: 33.62px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #91675E;
+
+}
+
+.botton_center_photografhy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 432px;
+    height: 90px;
+    background: rgba(255, 247, 237, 1);
+    border: 2.27px solid rgba(179, 116, 40, 1);
+    font-family: Heebo, sans-serif;
+    font-weight: 600;
+    font-size: 18.23px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(179, 116, 40, 1);
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+}
+
+.botton_center_photografhy:hover {
+    background: rgba(179, 116, 40, 1);
+    color: rgba(255, 247, 237, 1);
+}
+
+.imag_taytel_photografhy {
+    width: 100%;
+    height: auto;
+}
+
+.image_logo {
+    width: 100%;
+    /* border: solid; */
+    /* height: 139px; */
+}
+
+.span_photografhy {
+    font-family: Heebo, sans-serif;
+    font-weight: 700;
+    font-size: 28.99px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #91675E;
+}
+
+
+@media (max-width: 960px) {
+
+    /* מסכים קטנים */
+    .taytel_balvader {
+        font-family: Heebo, sans-serif;
+        font-weight: 700;
+        font-size: 17.52px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+
+    }
+
+    .taytel_heder_balvader {
+        font-family: Heebo, sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+
+    }
+
+    .icon-FooterBottom,
+    .link-footer,
+    .taytel_heder_balvader,
+    .taytel_balvader,
+    .link_balvader {
+        text-decoration: none;
+    }
+
+    .txt_balvader {
+        width: 309px;
+        font-family: Heebo, sans-serif;
+        font-weight: 600;
+        font-size: 11.93px;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: rgba(105, 94, 94, 1);
+    }
+
+
+    .botton_center_balvader {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        /* all: unset; */
+        /* מסיר את כל העיצובים הדיפולטיים */
+        cursor: pointer;
+        width: 146px;
+        height: 29px;
+        border-width: 0.62px;
+        background: rgba(255, 247, 237, 1);
+        border: 2.27px solid rgba(179, 116, 40, 1);
+        font-family: Heebo, sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: rgba(179, 116, 40, 1);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .botton_center_balvader:hover {
+        background: rgba(255, 247, 237, 1);
+        color: rgba(179, 116, 40, 1);
+    }
+
+    .imag_taytel_balvader {
+        width: 100%;
+        height: auto;
+    }
+
+    .image_logo {
+        width:100%;
+        /* height: 24px; */
+
+    }
+
+    .span_balvader {
+        font-family: Heebo, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: rgba(105, 94, 94, 1);
+    }
+
+}
+
+@media (max-width: 480px) {
+    /* מסכים מאוד קטנים */
+
+}
+
+
+
+
+@media (min-width: 600px) and (max-width: 1370px) {
+
+    /* מסכים קטנים */
+    .taytel_balvader {
+        margin: 0px;
+        padding: 0px;
+        font-family: Heebo, sans-serif;
+        font-weight: 700;
+        font-size: 25.71px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+
+    }
+
+    .taytel_heder_balvader {
+        width: auto;
+        font-family: Heebo, sans-serif;
+        font-weight: 600;
+        font-size: 15.71px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: rgba(0, 0, 0, 1);
+        /* border: solid; */
+    }
+
+    .icon-FooterBottom,
+    .link-footer,
+    .taytel_heder_balvader,
+    .taytel_balvader,
+    .link_balvader {
+        text-decoration: none;
+    }
+
+    .txt_balvader {
+        width: 630px;
+        font-family: Heebo, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: rgba(105, 94, 94, 1);
+
+    }
+
+
+    .botton_center_balvader {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        /* all: unset; */
+        /* מסיר את כל העיצובים הדיפולטיים */
+        cursor: pointer;
+        width: 297px;
+        height: 59px;
+        border-width: 1.57px;
+        padding: 12.73px;
+
+        background: rgba(255, 247, 237, 1);
+        border: 2.27px solid rgba(179, 116, 40, 1);
+        font-family: Heebo, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: rgba(179, 116, 40, 1);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .botton_center_balvader:hover {
+        background: rgba(255, 247, 237, 1);
+        color: rgba(179, 116, 40, 1);
+    }
+
+    .imag_taytel_balvader {
+        width: 100%;
+        height: auto;
+    }
+
+    .image_logo {
+        width: 100%;
+
+    }
+
+    .span_balvader {
+        font-family: Heebo, sans-serif;
+        font-weight: 600;
+        font-size: 20.56px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: rgba(105, 94, 94, 1);
+    }
+
+
+}
+
+.Whats_App_Button_photografhy {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f6faf8;
+    color: #25d365;
+    padding: 10px 15px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.192);
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
