@@ -30,7 +30,7 @@
     font-size: 40px;
     line-height: 100%;
     letter-spacing: 0%;
-    text-align: right;
+    text-align: center;
     color: #CD8579;
 
 }
@@ -42,7 +42,7 @@
     font-size: 33.62px;
     line-height: 100%;
     letter-spacing: 0%;
-    text-align: center;
+    text-align: cernter;
 
     /* margin-left: 15px; */
 }
@@ -57,13 +57,22 @@
 
 .txt_photografhy {
     font-family: Heebo, sans-serif;
-    font-weight: 700;
-    font-size: 33.62px;
-    line-height: 100%;
+    font-weight: 400;
+    font-size: 28.99px;
+    line-height: 45px;
     letter-spacing: 0%;
-    text-align: center;
+    text-align: right;
     color: #91675E;
+}
 
+.txt1_photografhy {
+    font-family: Heebo, sans-serif;
+    font-weight: 400;
+    font-size: 28.99px;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #CD8579;
 }
 
 .botton_center_photografhy {
@@ -116,53 +125,54 @@
     color: #91675E;
 }
 
-
 @media (max-width: 960px) {
 
     /* מסכים קטנים */
-    .taytel_balvader {
+    .taytel_photografhy {
+        width: 98%;   
+
         font-family: Heebo, sans-serif;
         font-weight: 700;
         font-size: 17.52px;
         line-height: 100%;
         letter-spacing: 0%;
-        text-align: center;
-        color: rgba(0, 0, 0, 1);
+        /* text-align: center; */
+
 
     }
 
-    .taytel_heder_balvader {
+    .taytel_heder_photografhy {
+        width: 98%;   
         font-family: Heebo, sans-serif;
         font-weight: 600;
         font-size: 11px;
         line-height: 100%;
         letter-spacing: 0%;
-        text-align: center;
-        color: rgba(0, 0, 0, 1);
+        /* text-align: center; */
+
 
     }
 
     .icon-FooterBottom,
     .link-footer,
-    .taytel_heder_balvader,
-    .taytel_balvader,
-    .link_balvader {
+    .taytel_heder_photografhy,
+    .taytel_photografhy,
+    .link_photografhy {
         text-decoration: none;
     }
 
-    .txt_balvader {
-        width: 309px;
+    .txt_photografhy {
+        width: 98%;   
         font-family: Heebo, sans-serif;
         font-weight: 600;
         font-size: 11.93px;
         line-height: 20px;
         letter-spacing: 0%;
-        text-align: center;
-        color: rgba(105, 94, 94, 1);
+
     }
 
 
-    .botton_center_balvader {
+    .botton_center_photografhy {
         display: flex;
         justify-content: center;
         justify-items: center;
@@ -174,43 +184,39 @@
         width: 146px;
         height: 29px;
         border-width: 0.62px;
-        background: rgba(255, 247, 237, 1);
-        border: 2.27px solid rgba(179, 116, 40, 1);
+        border: 2.27px solid;
         font-family: Heebo, sans-serif;
         font-weight: 500;
         font-size: 11px;
         line-height: 100%;
         letter-spacing: 0%;
-        text-align: center;
-        color: rgba(179, 116, 40, 1);
+        /* text-align: center; */
         margin-left: 10px;
         margin-right: 10px;
     }
 
-    .botton_center_balvader:hover {
-        background: rgba(255, 247, 237, 1);
-        color: rgba(179, 116, 40, 1);
-    }
 
-    .imag_taytel_balvader {
+
+    .imag_taytel_photografhy {
         width: 100%;
         height: auto;
     }
 
     .image_logo {
-        width:100%;
+        width: 100%;
         /* height: 24px; */
 
     }
 
-    .span_balvader {
+    .span_photografhy {
+        width: 98%;   
+
         font-family: Heebo, sans-serif;
         font-weight: 600;
         font-size: 14px;
         line-height: 100%;
         letter-spacing: 0%;
-        text-align: center;
-        color: rgba(105, 94, 94, 1);
+        /* text-align: center; */
     }
 
 }
@@ -225,8 +231,10 @@
 
 @media (min-width: 600px) and (max-width: 1370px) {
 
+
     /* מסכים קטנים */
-    .taytel_balvader {
+    .taytel_photografhy {
+        width: 98%;   
         margin: 0px;
         padding: 0px;
         font-family: Heebo, sans-serif;
@@ -234,44 +242,47 @@
         font-size: 25.71px;
         line-height: 100%;
         letter-spacing: 0%;
-        text-align: center;
-        color: rgba(0, 0, 0, 1);
-
+        /* text-align: right; */
+        /* border: solid */
     }
 
-    .taytel_heder_balvader {
+    .taytel_heder_photografhy {
+        width: 98%;   
+
         width: auto;
         font-family: Heebo, sans-serif;
         font-weight: 600;
         font-size: 15.71px;
         letter-spacing: 0%;
-        text-align: center;
-        color: rgba(0, 0, 0, 1);
+        text-align: right;
         /* border: solid; */
     }
 
     .icon-FooterBottom,
     .link-footer,
-    .taytel_heder_balvader,
+    .taytel_heder_photografhy,
     .taytel_balvader,
+    .icon_footer,
     .link_balvader {
         text-decoration: none;
+       
     }
 
-    .txt_balvader {
-        width: 630px;
+    .txt_photografhy {
+        width: 98%;   
+
         font-family: Heebo, sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
         letter-spacing: 0%;
-        text-align: center;
-        color: rgba(105, 94, 94, 1);
+        /* border: solid; */
+        text-align: right;
 
     }
 
 
-    .botton_center_balvader {
+    .botton_center_photografhy {
         display: flex;
         justify-content: center;
         justify-items: center;
@@ -284,43 +295,38 @@
         height: 59px;
         border-width: 1.57px;
         padding: 12.73px;
-
-        background: rgba(255, 247, 237, 1);
-        border: 2.27px solid rgba(179, 116, 40, 1);
+        border: 2.27px solid;
         font-family: Heebo, sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 100%;
         letter-spacing: 0%;
-        text-align: center;
-        color: rgba(179, 116, 40, 1);
+        /* text-align: center; */
         margin-left: 10px;
         margin-right: 10px;
     }
 
-    .botton_center_balvader:hover {
-        background: rgba(255, 247, 237, 1);
-        color: rgba(179, 116, 40, 1);
-    }
 
-    .imag_taytel_balvader {
+
+    .imag_taytel_photografhy {
         width: 100%;
         height: auto;
+        /* width: 1737;
+        height: 938; */
+
     }
 
     .image_logo {
         width: 100%;
-
     }
 
-    .span_balvader {
+    .span_photografhy {
+        width: 98%;   
         font-family: Heebo, sans-serif;
         font-weight: 600;
-        font-size: 20.56px;
+        font-size: 16px;
         line-height: 100%;
         letter-spacing: 0%;
-        text-align: center;
-        color: rgba(105, 94, 94, 1);
     }
 
 

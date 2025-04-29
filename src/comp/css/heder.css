@@ -1,4 +1,4 @@
-.header_header{
+.header_header {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -149,7 +149,7 @@
     .mobile-menu {
         display: none;
         /* border: solid; */
-/*  */
+        /*  */
     }
 
     .botton_heder {
@@ -173,7 +173,7 @@
         justify-items: center;
         align-items: center;
         align-content: center;
-        width:auto;
+        width: auto;
     }
 }
 
@@ -181,7 +181,7 @@
 
     .image_logo {
         position: relative;
-        width:100%;
+        width: 100%;
         height: 100%;
         /* border: solid; */
     }
@@ -189,8 +189,77 @@
     .botton_heder {
         font-size: 22px;
         width: 187px;
-        height: 140px;
+        /* height: 140px; */
         /* border: solid; */
 
     }
+}
+
+
+
+
+/* /* סגנון לתפריט נפתח בגרסת דסקטופ */
+.dropdown {
+    position: relative;
+    display: inline-block flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* border: solid; */
+}
+
+.dropdown-btn {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: none;
+    border: none;
+    /* color: #fff; */
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 100px;
+    padding: 20px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px ;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    /* color: black; */
+}
+
+/* תפריט נפתח לסמארטפון */
+.mobile_menu .dropdown-btn {
+    font-size: 1.5rem;
+    background-color: transparent;
+    /* color: #fff; */
+    border: none;
+    cursor: pointer;
+}
+
+.mobile_menu .dropdown.open .dropdown-content {
+    display: block;
 }
